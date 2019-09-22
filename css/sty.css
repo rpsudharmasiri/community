@@ -1,0 +1,618 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{/* Remove unwanted edges from body */
+	padding:0;
+	margin:0;
+	
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+#cont{/* <div id="cont">  style */
+	width:100%;/* width of the div*/
+	height:80vh;/* 80% of full screen height*/
+	
+}
+#header{/*<div id="header">style */
+	height:10vh;/* 10% of full screen height*/
+}
+
+#fir_lin{
+	margin-left:10%;/* left space from left*/
+}
+#fir_lin p{
+	font-size:14px;/* Size of the text*/
+	font-family:Tahoma, Geneva, sans-serif;/* font */
+	color:#333;/* text color*/
+	line-height:50px;/* height of the text line*/
+	margin-left:10px;/* left space from left*/
+
+}
+#fir_lin li{
+	height:250px;
+	width:220px;
+	background-color:#FFF;/* background color of list item(li)*/
+	float:left;
+	list-style:none;
+	margin:2px;
+	cursor:pointer;/* change cursor into hand icon*/
+	border:1px solid #CCC;/*border size, style and color*/
+}
+#fir_lin li:hover{
+	background-color:#E9E9E9
+}
+#fir_lin li:first-child{
+	height:505px;
+	background-image:url(../img/community_donation_406952.png);
+	background-size:cover;/*set background image full size*/
+	background-repeat:no-repeat;/*stretch ibtnmage*/
+	background-position:center;/*set background position to middle*/
+	background-size:50%;/*set background size*/
+	line-height:700px;
+	font-size:16px;
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#333;
+	text-transform:uppercase;/*Simple letter to capital*/
+	text-align:center;
+}
+#fir_lin li:nth-child(2) {
+	width:445px;
+	background-image:url(../img/Community_icon.png);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:30%;
+	line-height:400px;
+	font-size:16px;
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#333;
+	text-transform:uppercase;
+	text-align:center;
+}
+#fir_lin li:nth-child(3) {
+	background-image:url(../img/66185.png);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:30%;
+	line-height:400px;
+	font-size:16px;
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#333;
+	text-transform:uppercase;
+	text-align:center;
+}
+#fir_lin li:nth-child(5) {
+		background-image:url(../img/1755.png);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:30%;
+	line-height:400px;
+	font-size:16px;
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#333;
+	text-transform:uppercase;
+	text-align:center;
+
+	}
+	#fir_lin li:nth-child(6) {
+		background-image:url(../img/search_data-512.png);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:30%;
+	line-height:400px;
+	font-size:16px;
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#333;
+	text-transform:uppercase;
+	text-align:center;
+
+	}
+#fir_lin li:nth-child(7) {
+	background-image:url(../img/img_381236.png);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:40%;
+	line-height:400px;
+	font-size:16px;
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#333;
+	text-transform:uppercase;
+	text-align:center;
+}
+a{
+	text-decoration: none;
+}
+#fir_lin li:nth-child(8) {
+	background-image:url(../img/img_462366.png);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:35%;
+	line-height:400px;
+	font-size:16px;
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#333;
+	text-transform:uppercase;
+	text-align:center;
+}
+
+
+
+/*-----------------Login page--------------------*/
+
+#log_tab{
+	margin:auto;
+	margin-top:200px;
+}
+input{
+	width: 95%;
+  line-height:3em;
+  font-family: 'Ubuntu', sans-serif;
+  margin:1em;
+  border-radius:5px;
+  border:1px solid #CCC;
+  outline:none;
+  padding-left:10px;
+}
+#btn{
+	color: #fff;
+    background-color: #21735f;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+	outline:none;
+	text-align: center;
+	font-size: 15px;
+}
+
+/*-----------------Reset password--------------------*/
+#head_space{
+	width: 100%;
+	height: 150px;
+	background-color:#f7f7f7 ;
+}
+#sys_nm{
+	margin-left: 170px;
+	margin-top: -90px;
+}
+table{
+	margin: auto;
+
+}
+table h3{
+	font-size:32px;
+	line-height: 70px;
+}
+table h4{
+	font-size:18px;
+	line-height:50px;
+}
+#btn_reset{
+	color: #fff;
+    background-color: #21735f;
+    border-radius: 5px;
+    width: 39%;
+    cursor: pointer;
+    outline: none;
+    text-align: center;
+    font-size: 12px;
+    float: right;
+
+}
+
+/*-----------------Main page--------------------*/
+
+#pro_img{
+	margin-top: 2px;
+}
+#slider{
+	background-image:url(../img/community-group.jpg);
+	background-size:cover;
+	width:100%;
+	height:65vh;
+	background-attachment:fixed;/*Fix slider image*/
+	background-size:100%;
+	background-repeat:no-repeat;
+	padding-top:45vh;
+}
+#slider_com{
+	background-image:url(../img/charityworks.png);
+	background-size:cover;
+	width:100%;
+	height:30px;
+	background-size:100%;
+	background-repeat:no-repeat;
+	padding-top:35vh;
+}
+
+#slider h4{
+	color:#FFF;
+	font-size:38px;
+	font-weight:800;
+	text-transform:uppercase;
+	font-family: sans-serif;
+	text-align:center;
+}
+#btn_dona{
+    display: inline-block;
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: transparent;
+    padding: 15px 30px;
+    font-size: 17px;
+	cursor:pointer;
+	text-align:center;
+	margin-left:45%;
+	margin-top:20px;
+}
+#btn_dona:hover{
+	background-color:#FFF;
+	color:#333;
+	font-weight:750;/*turn normal text to BOLD text*/
+
+}
+#nav{
+	width:100%;
+	height:80px;
+	background:white;
+	position:fixed;
+	margin:auto;/*center to the screen*/
+	margin-top: 30px;
+	z-index: 100;
+	opacity: 0.93;
+}
+#nav li{
+	float:right;/*get all the items to one line(Navigation bar right to left)*/
+	width:10%;
+	list-style:none;/*remove bullets*/
+	line-height:80px;
+	color: #444;
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 1px;/*l e t t e r   s p a c e*/
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+	cursor:pointer;
+	
+}
+#nav li:hover{
+	color:#900;
+}
+#abo_us{
+	width:100%;
+	height:600px;
+	background: url(../img/bglines.png) repeat center center;
+	
+}
+#abo_us li{
+	width:50%;
+	margin-top:10px;
+	height:400px;
+	list-style:none;
+	float:left;
+	padding-top:80px;
+}
+#abo_us li h4{
+	margin-bottom: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #333;
+	font-size:36px;
+	font-family: 'Raleway', sans-serif;
+	margin-left:20px;
+}
+#abo_img{
+	border-radius:50%;/*Rounded image*/
+	margin-left:10%;
+	width:80%;
+	height:100%;;
+}
+#abo_hr{
+	background-color:4;
+	margin-left:25px;
+	line-height:10px;
+}
+#abo_us li p{
+    font-size: 1.3rem;
+    line-height: 2.6rem;
+    font-family: HelveticaNeue-Light,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+	margin-top:50px;
+	margin-left:20px;
+	margin-right:10px;
+}
+#com_joi{
+	border: 1px solid #019fcb;
+    color: #b70000;
+    display: inline-block;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+    margin: 0;
+    padding: 8px 4rem;
+    text-align: center;
+    text-shadow: none;
+    text-transform: uppercase;
+    border-color: #b70000;
+	background-color:transparent;
+	margin-top:30px;
+	margin-left:30%;
+}
+#com_joi:hover{
+	background-color:#b70000;
+	color:#FFF;
+	border:#999;
+	cursor:pointer;
+	
+}
+#our_eve{
+	width:100%;
+	height:700px;
+	background-color:#F8F8F8;
+	padding-top:50px;
+	
+}
+#our_eve hr{
+	margin:auto;
+	margin-top:5px;
+}
+
+#our_eve ul{
+	margin-top:100px;
+}
+#our_eve li{
+	float:left;
+	list-style:none;
+	width:30%;
+	height:220px;
+	background-color:#090;
+	margin-left:2%;
+	margin-top:30px;
+	cursor:pointer;
+	border:#CCC 1px solid;
+	
+	
+}
+#our_eve li:First-child{
+	background-image:url(../img/Volunteer-in-Sri-Lanka-SLVP-3.jpg);
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+}
+#our_eve li:nth-child(2){
+	background-image:url(../img/69267-plan-my-gap-year.jpg);
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+}
+#our_eve li:nth-child(3){
+	background-image:url(../img/134615916_14419746686951n.jpg);
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+}
+#our_eve li:nth-child(4){
+	background-image:url(../img/3.jpg);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+#our_eve li:nth-child(5){
+	background-image:url(../img/image_1499697394-c1eee31697.jpg);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+#our_eve li:nth-child(6){
+	background-image:url(../img/39.jpg);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+
+#footer{
+	width: 100%;
+	height:30px;
+	background-color: #45606d;
+	line-height: 30px;
+	text-align: center;
+	color: white;
+}
+#header_main{
+	width: 100%;
+	height: 30px;
+	background-color: #45606d;
+	position: fixed;
+	color: white;
+	z-index: 101;
+}
+#header_main h4{
+	font-weight: 200;
+	line-height: 30px;
+	margin-right: 50px;
+	float: right;
+}
+#header_main h3{
+	font-weight: 200;
+	line-height: 30px;
+	margin-left: 40px;
+	font-size: 16px;
+}
+#header_main a{ 
+	text-decoration: none;
+	color: white;
+	}
+/*-----------------contact us--------------------*/
+#slider_contact{
+	background-image:url(../img/holding-patient-hand.jpg);
+	background-size:cover;
+	width:100%;
+	height:80vh;
+	background-size:100%;
+	background-repeat:no-repeat;
+}
+#contact_content{
+	width: 800px;
+	height: 800px;
+	background-color: white;
+	margin:-150px auto 0 auto;
+	border-radius: 10px;
+	border: 1px solid #f3efef;
+	opacity: 0.96;
+}
+#contact_content h2{
+font-family: -webkit-body;
+color: #45606d;
+font-size: 28px;
+line-height: 70px;
+text-transform: uppercase;
+}
+#txt_area{
+	width: 95%;
+	margin-left: 10px;
+    line-height: 3em;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 1em;
+    border-radius: 5px;
+    border: 1px solid #CCC;
+    outline: none;
+    padding-left: 10px;
+    height: 200px;
+}
+#snd_btn{
+    border-radius: 5px;
+    background-color: #45606d;
+    color: #fff!important;
+    font-size: 15px;
+    float: right;
+    width: 200px;
+    cursor: pointer;
+}
+/*-----------------donator regi--------------------*/
+#slider_contact_dona{
+	background-image:url(../img/dataentry.png);
+	background-size:cover;
+	width:100%;
+	height:80vh;
+	background-size:100%;
+	background-repeat:no-repeat;
+}
+
+
+#slider_contact_donate{
+	background-image:url(../img/000e4ff6-1600.jpg);
+	background-size:cover;
+	width:100%;
+	height:80vh;
+	background-size:100%;
+	background-repeat:no-repeat;
+}
+/*-----------------community view web--------------------*/
+#slider_community{
+	background-image:url(../img/635897252748890426-1524372072_kids-02.jpg);
+	background-size:cover;
+	width:100%;
+	height:80vh;
+	background-size:100%;
+	background-repeat:no-repeat;
+}
+#community_content{
+	width: 90%;
+	height: 600px;
+	background-color: white;
+	margin:-150px auto 0 auto;
+	border-radius: 10px;
+	border: 1px solid #f3efef;
+	opacity: 0.96;
+
+}
+#community_content h2{
+font-family: cursive;
+color: #45606d;
+font-size: 28px;
+line-height: 70px;
+margin-left: 120px;
+}
+
+/*-----------------donator view--------------------*/
+
+#donator {
+  border-collapse: collapse;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+#donator td, #donator th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#donator tr:hover {background-color: #ddd;}
+
+#donator th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #f1f1f1;
+  color:black;
+}
+#tbl{
+	margin-top:50px;
+	width: 100%;
+	padding-left: 50%;
+}
+#btn_sub{
+	color: #fff;
+    background-color: #455861;
+    padding: 2px 5px;
+    border-radius: 5px;
+    width: 
+    30%;
+    cursor: pointer;
+    transition: all 0.1s linear;
+	margin:1em;
+	outline:none;
+	padding-left:10px;
+	float: right;
+}
+/*-----------------Reg_nav--------------------*/
+#community_content li{
+	list-style: none;
+	float: left;
+	width: 300px;
+	height: 200px;
+	background-color: #ececec;
+	line-height: 200px;
+	text-align: center;
+	margin-left: 70px;
+	margin-top: 50px;
+	border-radius: 10px;
+	font-weight: 500;
+	font-size: 19px;
+	letter-spacing: 1px;
+	cursor: pointer;
+
+}
+#community_content li:hover{
+	background-color: #e2dfdf;
+	}
+#myInput{
+	width: 200px;
+	float: right;
+	margin-right: 150px;
+}
+.myInput{
+	width: 200px;
+	float: right;
+	margin-right: 150px;
+}
+#type{
+	width: 100%;
+    line-height: 3em;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 1em;
+    border-radius: 5px;
+    border: 1px solid #CCC;
+    outline: none;
+    padding-left: 10px;
+}
